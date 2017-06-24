@@ -47,7 +47,7 @@ namespace SieciClient
 
                 cl0.run();
             }).Start();
-           /* new Thread(() =>
+            new Thread(() =>
             {
                 //Thread.CurrentThread.IsBackground = true;
 
@@ -55,7 +55,7 @@ namespace SieciClient
 
                 cl9.run();
             }).Start();
-            /*new Thread(() =>
+            new Thread(() =>
             {
                 //Thread.CurrentThread.IsBackground = true;
 
@@ -71,7 +71,7 @@ namespace SieciClient
 
                 cl5.run();
             }).Start();
-           /* new Thread(() =>
+            new Thread(() =>
             {
                 //Thread.CurrentThread.IsBackground = true;
 

@@ -54,7 +54,7 @@ namespace SieciClient
                         sendMsg(client, "MOVE " + moves[rand]).GetAwaiter();
                     }
 
-                    Thread.Sleep(500);
+                    Thread.Sleep(10);
                 }
             }
             catch (Exception e)
